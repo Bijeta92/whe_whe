@@ -40,7 +40,7 @@ const App = () => {
 
   const addNumber = (num) => {
     if (numberdashboard.length < 5) {
-      console.log(`number clicked ${num}`);
+      // console.log(`number clicked ${num}`);
       setnumberdashboard([...numberdashboard, num]);
     }
   };

@@ -60,13 +60,6 @@ const NumberPad = (props) => {
   //   ///});
   // };
 
-  const buttonClicked = () => {
-    return "button-clicked";
-  };
-  const buttonNotClicked = () => {
-    return "button-notClicked";
-  };
-
   // console.log(`returning value from buttonClicked() ${buttonClicked()}`);
 
   return (
@@ -90,7 +83,7 @@ const NumberPad = (props) => {
             }
             // setButtonClick1(true);
             // addNumber(number);
-            // console.log(`Number clicked on numberPad: ${number.id}`);
+            //console.log(`Number clicked on numberPad: ${number.id}`);
           }}
         >
           1
@@ -110,9 +103,8 @@ const NumberPad = (props) => {
             if (numberdashboard.length < 5) {
               setButtonClick2(true);
               addNumber(number);
-            } else {
-              setButtonClick1(false);
             }
+            //console.log(`Number clicked on numberPad: ${number.id}`);
           }}
         >
           2
@@ -132,6 +124,7 @@ const NumberPad = (props) => {
               setButtonClick3(true);
               addNumber(number);
             }
+            //console.log(`Number clicked on numberPad: ${number.id}`);
           }}
         >
           3
@@ -151,6 +144,7 @@ const NumberPad = (props) => {
               setButtonClick4(true);
               addNumber(number);
             }
+            //console.log(`Number clicked on numberPad: ${number.id}`);
           }}
         >
           4
@@ -170,6 +164,7 @@ const NumberPad = (props) => {
               setButtonClick5(true);
               addNumber(number);
             }
+            //console.log(`Number clicked on numberPad: ${number.id}`);
           }}
         >
           5

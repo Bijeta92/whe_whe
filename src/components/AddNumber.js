@@ -16,7 +16,9 @@ const AddNumber = (props) => {
 
       <FaTrash
         className="icon-cursor icon-size-small grid-x-right"
-        onClick={clickHandler}
+        onClick={() => {
+          clickHandler();
+        }}
       />
     </div>
   );
